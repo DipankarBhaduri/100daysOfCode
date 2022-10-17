@@ -15,7 +15,6 @@ public class minimum_element_from_array {
 
     public static int get_minimum_number(int[] arr) {
         int minimum = arr[0];
-
         for (int current_value : arr) {
             if (current_value < minimum) {
                 minimum = current_value;
