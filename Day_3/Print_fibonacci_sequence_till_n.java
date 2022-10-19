@@ -1,6 +1,6 @@
 package Day_3;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Print_fibonacci_sequence_till_n {
     public static void main(String[] args) {
