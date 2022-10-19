@@ -8,13 +8,13 @@ public class Flipping_bits {
         int testcase = sc.nextInt();
 
         while (testcase > 0) {
-            int n = sc.nextInt();
+            Long n = sc.nextLong();
             Flip_bits(n);
             testcase--;
         }
     }
 
-    public static void Flip_bits(int n) {
+    public static void Flip_bits(Long n) {
         long bitmask = (1L << 32) - 1;
         System.out.println(bitmask ^ n);
     }

@@ -1,6 +1,6 @@
 package Day_1;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class minimum_element_from_array {
     public static void main(String[] args) {
