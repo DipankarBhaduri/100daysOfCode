@@ -7,6 +7,18 @@ Two binary trees are considered the same if they have identical shapes, and the 
  */
 public class Check_Same_tree {
 
+    static class Node {
+        int data;
+        Node left;
+        Node right;
+
+        Node(int data) {
+            this.data = data;
+            this.left = null;
+            this.right = null;
+        }
+    }
+
     public static void areTreesIdentical(Node root1, Node root2) {
         if (helper(root1, root2)) {
             System.out.print("YES");
