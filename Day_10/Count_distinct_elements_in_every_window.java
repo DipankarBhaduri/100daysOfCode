@@ -17,6 +17,7 @@ public class Count_distinct_elements_in_every_window {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
 
         countDistinctElements(arr, windowSize);
     }
