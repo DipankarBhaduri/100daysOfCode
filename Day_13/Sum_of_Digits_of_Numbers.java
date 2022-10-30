@@ -16,7 +16,6 @@ public class Sum_of_Digits_of_Numbers {
             int ans = helper(i);
             System.out.println(ans);
         }
-
     }
 
     public static int helper(int n) {
