@@ -15,6 +15,7 @@ public class Longest_Sub_Array_with_Sum_K {
                 arr[i] = sc.nextInt();
             }
 
+            sc.close();
             int maximum_subarray = longest_subarray_with_given_sum(arr, sum);
             System.out.println(maximum_subarray);
         }
