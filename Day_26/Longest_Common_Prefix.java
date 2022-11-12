@@ -14,7 +14,6 @@ public class Longest_Common_Prefix {
         sc.close();
         String ans = longest_common_prefix(str);
         System.out.print(ans);
-
     }
 
     public static String longest_common_prefix(String[] arr) {
