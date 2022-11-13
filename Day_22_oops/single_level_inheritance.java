@@ -7,12 +7,12 @@ public class single_level_inheritance {
     }
 }
 
-class Student {
+class Student23 {
     String name;
     int age;
 }
 
-class Teacher extends Student {
+class Teacher extends Student23 {
     Teacher(String name, int age) {
         this.name = name;
         this.age = age;
