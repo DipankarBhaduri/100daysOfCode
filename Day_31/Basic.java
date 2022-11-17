@@ -9,6 +9,7 @@ public class Basic {
         float num2 = sc.nextFloat();
         float num3 = sc.nextFloat();
 
+        sc.close();
         float mul = num1 * num3 * num2;
         float add = num1 + num2 + num3;
         System.out.println(mul);
