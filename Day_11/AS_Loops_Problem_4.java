@@ -13,7 +13,6 @@ public class AS_Loops_Problem_4 {
         int a = sc.nextInt();
         int b = sc.nextInt();
         sc.close();
-
         palindrome_in_range(a, b);
     }
 
@@ -42,6 +41,5 @@ public class AS_Loops_Problem_4 {
         } else {
             return false;
         }
-
     }
 }

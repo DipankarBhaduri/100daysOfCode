@@ -29,13 +29,11 @@ public class Double_String {
         if (n % 2 != 0) {
             return false;
         }
-
         for (int i = 0; i < n / 2; i++) {
             if (s.charAt(i) != s.charAt((n / 2) + i)) {
                 return false;
             }
         }
-
         return true;
     }
 }

@@ -27,10 +27,8 @@ public class Index_of_Element {
                 System.out.print(i + " ");
             }
         }
-
         if (count == 0) {
             System.out.print(-1);
         }
-
     }
 }
