@@ -8,7 +8,7 @@ public class Matrix_Problems {
 
 // 48. Rotate Image ( LeetCode )
 
-class Solution1 {
+class Solution15 {
     public void rotate(int[][] matrix) {
         int m = matrix.length;
         int n = matrix[0].length;
