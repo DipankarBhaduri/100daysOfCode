@@ -27,21 +27,32 @@ public class Minimum_Size_Subarray_Sum {
         }
         int sum = 0;
         int start = 0;
-        int smallest_sum = 0;
+        int smallest_sum = Integer.MAX_VALUE;
+        int prefix = 0;
 
         for (int i = 0; i < n; i++) {
+            prefix += arr[i];
             int value = arr[i];
-            if (sum < k) {
+            if (sum <= k) {
                 sum += value;
-            } else if (sum >= k) {
-                smallest_sum = Math.min(i - start, smallest_sum);
-            } else if (sum > k) {
+            }
+            if (sum >= k) {
+                smallest_sum = Math.min(i - start + 1, smallest_sum);
+            }
+            if (sum > k) {
                 while (sum > k) {
                     sum -= arr[start++];
+                }
+                if (sum >= k) {
+                    smallest_sum = Math.min(i - start + 1, smallest_sum);
                 }
             }
         }
 
-        return smallest_sum;
+        if (prefix < k) {
+            return 0;
+        } else {
+            return smallest_sum;
+        }
     }
 }
