@@ -34,7 +34,7 @@ public class Common_Elements_In_Three_Sorted_Arrays {
         Common_Elements_In_Three_Sorted_Arrays(arr1, arr2, arr3, n1, n2, n3);
     }
 
-    public static void Common_Elements_In_Three_Sorted_Arrays(int[] arr1, int[] arr2, int[] arr3, int n1, int n2,
+    static void Common_Elements_In_Three_Sorted_Arrays(int[] arr1, int[] arr2, int[] arr3, int n1, int n2,
             int n3) {
 
         HashSet<Integer> map1 = new HashSet<>();
