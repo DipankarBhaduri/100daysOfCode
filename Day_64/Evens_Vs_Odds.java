@@ -16,6 +16,7 @@ public class Evens_Vs_Odds {
                 evenSum += i;
             }
         }
+        sc.close();
 
         System.out.print(evenSum - oddSum);
     }
