@@ -58,7 +58,6 @@ public class Right_view_of_a_binary_tree {
                 }
             }
         }
-
         return list;
     }
 
@@ -66,7 +65,7 @@ public class Right_view_of_a_binary_tree {
         int[] nodes = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, 99, -1, -1 };
         BinaryTree tree = new BinaryTree();
         Node root = tree.BuildTree(nodes);
-        // System.out.print(root.data);
+        // System.out.print(root.data) ;
 
         ArrayList<Integer> list = Right_view(root);
         for (int i = 0; i < list.size(); i++) {
