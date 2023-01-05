@@ -29,11 +29,9 @@ public class Circular_queue_using_array {
                 System.out.print("Queue is full");
                 return;
             }
-
             if (front == -1) {
                 front++;
             }
-
             rear = (rear + 1) % size;
             arr[rear] = data;
         }
