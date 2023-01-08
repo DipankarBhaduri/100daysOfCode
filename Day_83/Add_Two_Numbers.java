@@ -83,7 +83,6 @@ public class Add_Two_Numbers {
         root2 = LL2.add_last(9);
         root2 = LL2.add_last(9);
         root2 = LL2.add_last(9);
-
         print_element(root2);
 
         Node result = add_two_number(root1, root2);
