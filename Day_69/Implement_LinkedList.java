@@ -1,4 +1,5 @@
 package Day_69;
+
 import java.util.*;
 
 // Node class in my LinkedList :-->
@@ -14,7 +15,7 @@ class Node {
 
 class LL {
     static Node head;
-    
+
     // add first method implementation of the linked list :-->
     public Node add_first(int data) {
         Node newNode = new Node(data);
