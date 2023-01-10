@@ -10,6 +10,7 @@ public class Middle_of_the_Linked_List {
             this.data = data;
             this.next = null;
         }
+
     }
 
     static class LinkedList {
