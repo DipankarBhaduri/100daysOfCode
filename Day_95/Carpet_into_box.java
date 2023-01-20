@@ -2,7 +2,7 @@ package Day_95;
 
 public class Carpet_into_box {
     public static void main(String[] args) {
-
+        System.out.println("______________________________________________");
     }
 }
 
